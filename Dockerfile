@@ -1,6 +1,6 @@
 FROM openjdk 
 
-WOKDIR /appliction
+WOrKDIR /appliction
 
 COPY somaa.java .
 
