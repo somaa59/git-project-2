@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing github action'
-        run: pwd 
-      
-      - name: 'Testing printing'
-        run: echo abdelsamea
+      - name: 'Printing folder contents'
+        run: ls
+    
