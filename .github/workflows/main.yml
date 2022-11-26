@@ -1,19 +1,16 @@
 on:
   push:
-    branches:
-      -master
+    - master
 
 
 
+jops:
+  build:
+    runs-on: ubuntu-latest
 
- jops:
-   build:
-     runs-on: ubuntu-latest
-
-
-   steps:
-     -name: 'Tasting Github Action'
-      run: pwd
-
-     -name: 'tasting printing'
-      run: echo somaa-ayman
+    steps:
+      - name: 'Testing github action'
+        run: pwd 
+      
+      - name: 'Testing printing'
+        run: echo abdelsamea
